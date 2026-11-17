@@ -222,8 +222,8 @@ Sous Windows (PowerShell), utilisez `New-Item -ItemType Directory -Force .agents
 
 Ouvrez une nouvelle session de l'agent et continuez sur la fonctionnalité suivante :
 
-- Pour coder, avec Mistral Vibe : `/ajouter-fonctionnalite`. Avec OpenCode : `Utilise le skill ajouter-fonctionnalite`.
-- Pour faire un commit et pousser, avec Mistral Vibe : `/commit-push`. Avec OpenCode : `Utilise le skill commit-push`.
+- Pour coder, avec Mistral Vibe : `/ajouter-fonctionnalite`. Avec OpenCode : tapez `/skills` et choisissez `ajouter-fonctionnalite`, ou écrivez `Utilise le skill ajouter-fonctionnalite`.
+- Pour faire un commit et pousser, avec Mistral Vibe : `/commit-push`. Avec OpenCode : tapez `/skills` et choisissez `commit-push`, ou écrivez `Utilise le skill commit-push`.
 
 Mistral Vibe ne lit ces skills que si vous faites confiance au dossier au lancement.
 
@@ -233,10 +233,10 @@ Comparez avec vos premières fonctionnalités : la taille du changement, les fic
 
 Chaque binôme crée un skill pour la documentation, pendant la réalisation avec les skills.
 
-- Avec Mistral Vibe : `/skill-creator Crée un skill expliquer-code : il lit git diff, résume en 5 lignes, dessine un diagramme de séquence et un flowchart`.
+- Avec Mistral Vibe : `/vibe:skill-creator Crée un skill expliquer-code : il lit git diff, résume en 5 lignes, dessine un diagramme de séquence et un flowchart`.
 - Avec OpenCode : demandez à l'agent d'écrire le fichier `.agents/skills/expliquer-code/SKILL.md`, avec la même description.
 
-Relisez le fichier créé et raccourcissez-le si besoin. Ouvrez ensuite une nouvelle session et appelez le skill : `/expliquer-code` avec Mistral Vibe, `Utilise le skill expliquer-code` avec OpenCode.
+Relisez le fichier créé et raccourcissez-le si besoin. Ouvrez ensuite une nouvelle session et appelez le skill : `/expliquer-code` avec Mistral Vibe ; avec OpenCode, tapez `/skills` et choisissez `expliquer-code`.
 
 ## Lancer l'agent
 
